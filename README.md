@@ -5,3 +5,9 @@ unity実験室
 **ポイント**
 - [MenuItem(アイテム名)]を記述する
 - その下にstatic関数を書くと実装される
+~~~
+ [MenuItem(アイテム名)]
+ static public void MenuSample()
+ {
+ }
+~~~
